@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="solberg_traffic_patterns" id="solberg_traffic_patterns">
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_way_id" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="aeroway" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="admin_level" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="boundary" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="craft" type="string"></SimpleField>
+	<SimpleField name="geological" type="string"></SimpleField>
+	<SimpleField name="historic" type="string"></SimpleField>
+	<SimpleField name="land_area" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="leisure" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="military" type="string"></SimpleField>
+	<SimpleField name="natural" type="string"></SimpleField>
+	<SimpleField name="office" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="shop" type="string"></SimpleField>
+	<SimpleField name="sport" type="string"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
+	<SimpleField name="other_tags" type="string"></SimpleField>
+</Schema>
+<Folder><name>solberg_traffic_patterns</name>
+  <Placemark>
+	<Style><LineStyle><color>FFc11013</color><width>2.83464</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solberg_traffic_patterns">
+		<SimpleData name="osm_way_id">-3045787385032959947</SimpleData>
+		<SimpleData name="aeroway">navigationaid</SimpleData>
+		<SimpleData name="other_tags">&quot;direction&quot;=&gt;&quot;04&quot;,&quot;height&quot;=&gt;&quot;1200&quot;,&quot;ref&quot;=&gt;&quot;pattern_04&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-74.7463876,40.5661479 -74.7381918,40.5771861 -74.7328829,40.5843352 -74.7255649,40.5941886 -74.7122091,40.6121677 -74.7311256,40.6202663 -74.7653041,40.574252 -74.7463876,40.5661479</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FFc11013</color><width>2.83464</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solberg_traffic_patterns">
+		<SimpleData name="osm_way_id">-3045787385032959946</SimpleData>
+		<SimpleData name="aeroway">navigationaid</SimpleData>
+		<SimpleData name="other_tags">&quot;direction&quot;=&gt;&quot;22&quot;,&quot;height&quot;=&gt;&quot;1200&quot;,&quot;ref&quot;=&gt;&quot;pattern_22&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-74.7328829,40.5843352 -74.7381918,40.5771861 -74.7463876,40.5661479 -74.7597334,40.5481697 -74.7409643,40.5401256 -74.7067957,40.58615 -74.7255649,40.5941886 -74.7328829,40.5843352</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
