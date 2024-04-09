@@ -90,14 +90,42 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
+	<Style id="style3">
+		<LineStyle>
+			<color>ffc11013</color>
+			<width>2.83464</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style4">
+		<LineStyle>
+			<color>ffc11013</color>
+			<width>2.83464</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<StyleMap id="stylemap_id1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id10">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#style0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style1</styleUrl>
+			<styleUrl>#style3</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="stylemap_id3">
@@ -107,7 +135,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style2</styleUrl>
+			<styleUrl>#style4</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Placemark>
@@ -139,7 +167,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Solberg runway 04 pattern - left traffic</name>
-		<styleUrl>#stylemap_id1</styleUrl>
+		<styleUrl>#stylemap_id10</styleUrl>
 		<ExtendedData>
 			<SchemaData schemaUrl="tar1090overlay.kml#solberg_traffic_patterns">
 				<SimpleData name="osm_way_id">-3045787385032959947</SimpleData>
@@ -188,6 +216,20 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>Solberg rwy 22 pattern</name>
+		<styleUrl>#stylemap_id1</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.74096618266761,40.54012513100991,0 -74.70675631578578,40.58619190238235,0 -74.72556364868535,40.59419161477914,0 -74.75973287969643,40.54817200066208,0 -74.74096618266761,40.54012513100991,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
 	</Placemark>
 </Document>
 </kml>
